@@ -1,0 +1,52 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 70;
+	width: 100%;
+	height: 80px;
+}
+
+nav{
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+}
+
+
+.index-containter{
+	margin: 15px 0;
+}
+
+.nav-right{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: -5px;
+}
+
+.navbar{
+	margin-bottom: 0px;
+	border: none;
+	border-radius: 0px;
+}
+
+
+.navbar-default .navbar-nav>li:hover {
+    background-color: #96cbc7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.icon1{
+	width: 40px;
+	height: 40px;
+	margin: 0 10px;
+}
+
+
+.main-info{
+	background: url(../image/video/section.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+	
+}

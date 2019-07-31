@@ -1,0 +1,75 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.user{
+	width: 100%;
+	height: 290px;
+	background: url(../image/edit/mokuaidi@2x.png);
+}
+
+.user-img{
+	margin: 0 auto;
+	width: 111px;
+	height: 111px;
+}
+
+.user-box{
+	width: 100%;
+	position: absolute;
+	top: 235px;
+}
+
+.user-box p {
+	text-align: center;
+	margin: 15px auto;
+	font-size:30px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(40,40,40,1);
+}
+
+.img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+}
+
+/*填写资料*/
+.info{
+	margin: 195px auto;
+}
+
+.info input{
+border: 1px solid #B4B4B4;
+    width: 310px;
+    height: 24px;
+}
+
+label{
+	width: 95px;
+	font-size: 18px;
+}
+.info-form div{
+	margin: 15px auto;
+    /*text-align: center;*/
+}
+
+.container_{
+	width: 100%;
+}
+
+.row-p{
+	margin-left: 15px;
+	font-size:20px;
+font-family:MicrosoftYaHei;
+font-weight:400;
+color:rgba(40,40,40,1);
+}
+
+textarea{
+	width: 100%;
+    height: 180px;
+    border: 1px solid #B4B4B4;
+}

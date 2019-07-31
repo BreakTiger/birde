@@ -1,0 +1,39 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.about{
+	margin: 125px auto;
+	width: 1247px;
+	height: 447px;
+	background: url(../image/edit/module_di@2x.png) no-repeat;
+}
+
+.aboutUs{
+	margin: 137px auto;
+	/*box-shadow:12px 0px 21px rgba(247,247,247,0.6);*/
+}
+
+.about-row{
+	width: 100%;
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.about p {
+/*	font-size: 28px;*/
+	text-align: center;
+	color: #444444;
+}
+
+button{
+    background: linear-gradient(to right,#5fb1b1, #57b98a);
+	  border: none;
+	  line-height: 86px;
+	  color: #fff;
+	  width: 220px;
+	  font-size: 28px;
+	  margin: 0 auto;
+	  height: 86px;
+}

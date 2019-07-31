@@ -1,0 +1,89 @@
+.windows{
+	max-width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.5);
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 80;
+	padding: 0px;
+}
+
+.windows-show{
+	display: none;
+}
+
+.login{
+	background-color: #fff;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+.close{
+	width: 64px;
+	height: 64px;
+	position: absolute;
+	top: -33px;
+	right: -30px;
+	z-index: 99;
+}
+
+.link{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	margin: 12px 0;
+}
+
+
+.login-btn{
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+	color: #fff;
+	width: 100%;
+}
+
+.or-line{
+	width: 100%;
+}
+
+
+
+
+.way-list{
+	padding: 0px;
+	padding-left: 15px;
+	/*padding-right: 15px;
+	padding-left: 15px;*/
+}
+
+.way-list ul li{
+	list-style: none;
+}
+
+
+
+.registered{
+	background-color: #fff;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+
+.Third{
+	background-color: #fff;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+.VIP-data{
+	background-color: #fff;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+
+.f-password{
+	background-color: #fff;
+	margin-top: 100px;
+	border-radius: 5px;
+}

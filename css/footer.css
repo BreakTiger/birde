@@ -1,0 +1,34 @@
+.footer{
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+}
+
+#left ul li{
+	list-style: none;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+#left ul li a{
+	color: #fff;
+	font-size: 18px;
+}
+
+#info{
+	margin-top: 60px;
+}
+
+#info p{
+	color: #fff;
+	margin-left: 40px;
+}
+
+#right ul{
+	margin-top: 130px;
+}
+
+
+#right ul li{
+	list-style: none;
+}

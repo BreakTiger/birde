@@ -1,0 +1,44 @@
+.main-info{
+	margin-top: 80px;
+}
+
+
+
+.title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 50px 0;
+}
+
+.kinds-list{
+	margin: 0px;
+	margin-left: -37px;
+	margin-bottom: 50px;
+}
+
+.kinds-list li{
+	list-style: none;
+	padding: 0px;
+	background-color: #fff;
+	box-shadow: 0px 0px 24.65px 4.35px rgba(62, 63, 63, 0.12);
+
+
+}
+
+
+
+
+.icon-list-line{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.icon-item{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

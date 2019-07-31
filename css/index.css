@@ -1,0 +1,158 @@
+.header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 70;
+	width: 100%;
+	height: 80px;
+}
+
+nav{
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+}
+
+
+.index-containter{
+	margin: 15px 0;
+}
+
+.nav-right{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 10px;
+}
+
+
+
+.navbar{
+	margin-bottom: 0px;
+	border: none;
+	border-radius: 0px;
+}
+
+
+.navbar-default .navbar-nav>li:hover {
+    background-color: #96cbc7;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.btn1{
+	/*width: 70px;
+	height: 30px;*/
+	border: none;
+	border-radius: 15px;
+	background-color: #fff;
+	color: #57b88e;
+	border: 1px solid #57b88e;
+	line-height: 16px;
+}
+
+.btn2{
+	/*width: 70px;
+	height: 30px;*/
+	border: none;
+	border-radius: 15px;
+	background-color: #57b88e;
+	color: #fff;
+	border: 1px solid #fff;
+	line-height: 16px;
+}
+
+
+.index-btn{
+	width:220px;
+	height: 100px;
+	font-size: 50px;
+	color: #fff;
+	background-color: #f7931d;
+	position: absolute;
+	bottom: 40px;
+	left: 280px; 
+	text-align: center;
+	line-height: 100px;
+}
+
+.index-btn:hover{
+	text-decoration: none;
+}
+
+
+.main-info{
+	background: url(../image/index/section.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.info-content{
+	background-color: #fff;
+	box-shadow: 0px 6px 24.65px 4.35px rgba(62, 63, 63, 0.12);
+	margin-left: 140px;
+	margin-top: 290px;
+	margin-bottom: 80px;
+}
+
+.picturebox{
+	background-color: #fff;
+	box-shadow: 0px 6px 24.65px 4.35px rgba(62, 63, 63, 0.12);
+	margin-left: 25px;
+	margin-top: -90px;
+	margin-bottom: 50px;
+	margin-right: 15px;
+}
+
+
+.btn3{
+	width: 120px;
+	height: 60px;
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+	color: #fff;
+	font-size: 25px;
+}
+
+.list{
+	padding:0px; 
+	list-style: none;
+	background-color: #fff;
+	box-shadow: 0px 6px 24.65px 4.35px rgba(62, 63, 63, 0.12);
+}
+
+
+.footer{
+	height: 420px;
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+}
+
+#left ul li{
+	list-style: none;
+	display: inline-block;
+	color: #fff;
+	font-size: 18px;
+}
+
+
+#left ul li a{
+	color: #fff;
+	font-size: 18px;
+}
+
+#info{
+	margin-top: 60px;
+}
+
+#info p{
+	color: #fff;
+	margin-left: 40px;
+}
+
+#right ul{
+	margin-top: 130px;
+}
+
+
+#right ul li{
+	list-style: none;
+}
+

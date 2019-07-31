@@ -1,0 +1,110 @@
+
+/*导航整体容器*/
+.left-box{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+
+/*第一级导航*/
+.first-nav{
+	position: absolute;
+	top: 75px;
+	left: 70px;
+}
+
+
+.first-nav>li{
+	list-style: none;
+	border-top: 1px solid #5fb1b1;
+	border-left: 1px solid #5fb1b1;
+	border-right: 1px solid #5fb1b1;
+	height: 75px;
+	width: 150px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 18px;
+	text-decoration: none;
+	position: relative;
+	cursor: pointer;
+}
+
+.first-nav>li>a{
+	color: #000;
+}
+
+
+
+
+/*最后一个LI*/
+.first-nav>li:last-child{
+	border-bottom: 1px solid #5fb1b1;
+	background: linear-gradient(to right,#5fb1b1, #57b98a);
+}
+
+.first-nav>li:last-child a{
+	color: #fff;
+}
+
+
+/*触发样式*/
+.first-nav>li:hover{
+	background-color: #5fb1b1;
+	color: #fff;
+}
+
+
+
+
+/*第二级导航*/
+.second-nav{
+	position: absolute;
+	top: 0px;
+	left: 148px;
+	z-index: 10;
+}
+
+
+.second-nav>li{
+	list-style: none;
+	border-top: 1px solid #5fb1b1;
+	border-left: 1px solid #5fb1b1;
+	border-right: 1px solid #5fb1b1;
+	height: 75px;
+	width: 150px;
+	text-align: center;
+	line-height: 75px;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+/*文字大小*/
+.second-nav>li>a{
+	font-size: 18px;
+	color: #000;
+}
+
+
+/*最后一个li*/
+.second-nav>li:last-child{
+	border-bottom: 1px solid #5fb1b1;
+}
+
+
+/*二级导航触发的样式*/
+
+.second-nav>li:hover{
+	background-color: #5fb1b1;
+}
+
+
+
+
+/*默认的选中项*/
+.check{
+	background-color: #5fb1b1;
+	color: #fff;
+}
+
+
+

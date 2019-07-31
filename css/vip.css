@@ -1,0 +1,61 @@
+.main-info{
+	margin-top: 80px;
+	background: url(../image/vip/section.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.title{
+	text-align: center;
+	font-size: 36px;
+	color: #444444;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+
+.first{
+	background: url(../image/vip/module_shubiaoyidu.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+	height: 331.844px;
+	overflow: hidden;
+}
+
+.second{
+	background: url(../image/vip/img_viptu.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+	height: 331.844px;
+	overflow: hidden;
+}
+
+
+.third{
+	background: url(../image/vip/img_quanzanvip2.png) 100% 100%/ 100% 100%;
+	background-repeat: no-repeat;
+	height: 331.844px;
+	overflow: hidden;
+}
+
+.picture-list{
+	margin: 0px;
+	margin-bottom: 80px;
+}
+
+.picture-list li{
+	list-style: none;
+}
+
+
+
+.vip-btn{
+	background-color: #F7931D;
+	color: #fff;
+	border-radius: 18px;
+}
+
+
+
+
+.hint>p{
+	color: #fff;
+
+}
